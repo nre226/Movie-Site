@@ -1,0 +1,30 @@
+body{
+	background-color: black;
+}
+
+.col-sm-3{
+	color: white;
+}
+
+.col-sm-6{
+	color:white;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 0.3em;
+    margin-top: 10%;
+}
+
+*[role="form"] h2 {
+	text-align: center;
+    margin-bottom: .3em;
+    color: white;
+}
+
+*[role="submitbutton"]{
+	text-align: left;
+}

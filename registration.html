@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> Registration </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="fillform.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style type="text/css">
+   body { background: black !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+
+<body>
+	<div class="container">
+	            <form class="form-horizontal" role="form">
+	                <h2>Sign Up</h2>
+	                <hr/>
+	                <div class="form-group">
+	                    <label for="firstName" class="col-sm-3 control-label">First Name</label>
+	                    <div class="col-sm-9">
+	                        <input type="text" id="firstName" placeholder="John" class="form-control" autofocus>
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label for="middlename" class="col-sm-3 control-label">Middle Name</label>
+	                    <div class="col-sm-9">
+	                        <input type="text" id="firstName" placeholder="Henry" class="form-control">
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label for="lastname" class="col-sm-3 control-label">Last Name</label>
+	                    <div class="col-sm-9">
+	                        <input type="text" id="firstName" placeholder="Doe" class="form-control">
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label for="email" class="col-sm-3 control-label">Email</label>
+	                    <div class="col-sm-9">
+	                        <input type="email" id="email" placeholder="Email" class="form-control">
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label for="password" class="col-sm-3 control-label">Password</label>
+	                    <div class="col-sm-9">
+	                        <input type="password" id="password" placeholder="Password" class="form-control">
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+	                    <div class="col-sm-9">
+	                        <input type="date" id="birthDate" class="form-control">
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label class="control-label col-sm-3">Gender</label>
+	                    <div class="col-sm-6">
+	                        <div class="row">
+	                            <div class="col-sm-6">
+	                                <label class="radio-inline">
+	                                    <input type="radio" id="femaleRadio" value="Female">Female
+	                                </label>
+	                            </div>
+	                            <div class="col-sm-6">
+	                                <label class="radio-inline">
+	                                    <input type="radio" id="maleRadio" value="Male">Male
+	                                </label>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div> <!-- /.form-group -->
+	                <div class="form-group">
+	                    <div class="col-sm-9 col-sm-offset-2" role="submitbutton">
+	                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+	                    </div>
+	                </div>
+	            </form> <!-- /form -->
+	        </div> <!-- ./container -->
+</body>
+</html>
