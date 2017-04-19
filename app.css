@@ -1,0 +1,67 @@
+#page {
+	font-family:Montserrat;
+	color:white;
+	background-color:#444444;
+}
+.splash {
+  max-width:100%;
+  overflow: hidden;
+}
+.banner {
+	width:100%;
+}
+.splash {
+	text-align:center;
+}
+#searchbar {
+	float:left;
+	display:inline;
+}
+#greeting {
+	margin:10px;
+}
+.greeting {
+	vertical-align:center;
+}
+.slideshow {
+	margin-bottom:50px;
+	padding: 20px 20px;
+	background-color:rgba(0,0,0,0.4);
+	border: solid 5px rgba(0,0,0,0.4);
+	border-radius:5px;
+}
+
+#searchbar {
+  margin: 10px;
+}
+input{
+  font-size: 12px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:black;
+}
+input[type=search] {
+  color:black;
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  background: #ededed url(http://webdesignerwall.com/demo/expandable-search-form/images/search-icon.png) no-repeat 9px center;
+  border:solid 1px #ccc;
+  padding:9px 10px 9px 32px;
+  width:110px;
+  -webkit-border-radius:10em;
+  -mox-border-radius:10em;
+  border-radius:10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input[type=search]:focus{
+  width:250px;
+  outline:0;
+  background-color:#fff;
+  border-color:#FF0000;
+  -webkit-box-shadow:0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow:0 0 5px rgba(109,207,246,.5);
+  box-shadow:0 0 5px rgba(109,207,246,.5);
+}
+
+/*# sourceMappingURL=app.css.map*/
