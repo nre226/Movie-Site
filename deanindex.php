@@ -102,7 +102,7 @@
 	<div class="row">
 	    <div class="col-md-12">
 			<div class="splash">
-				<img class="banner" src="header.png">
+				<img class="banner" src="Imgs/header.png">
 			</div>
 	    </div>
 	</div>
@@ -115,15 +115,15 @@
 				<h1>Popular Movies</h1>
 				<div class="row">
 					<div class="slideshow">
-					    <div><img data-lazy="goodfellas.jpg"></div>
-					    <div><img data-lazy="inception.jpg"></div>
-					    <div><img data-lazy="12angrymen.jpg"></div>
-					    <div><img data-lazy="forrestgump.jpg"></div>
-					    <div><img data-lazy="thedarkknight.jpg"></div>
-					    <div><img data-lazy="fightclub.jpg"></div>
-					    <div><img data-lazy="pulpfiction.jpg"></div>
-					    <div><img data-lazy="shawshank.jpg"></div>
-					    <div><img data-lazy="thegodfather.jpg"></div>
+					    <div><img data-lazy="Imgs/goodfellas.jpg"></div>
+					    <div><img data-lazy="Imgs/inception.jpg"></div>
+					    <div><img data-lazy="Imgs/12angrymen.jpg"></div>
+					    <div><img data-lazy="Imgs/forrestgump.jpg"></div>
+					    <div><img data-lazy="Imgs/thedarkknight.jpg"></div>
+					    <div><img data-lazy="Imgs/fightclub.jpg"></div>
+					    <div><img data-lazy="Imgs/pulpfiction.jpg"></div>
+					    <div><img data-lazy="Imgs/shawshank.jpg"></div>
+					    <div><img data-lazy="Imgs/thegodfather.jpg"></div>
 					</div>
 				</div>
 
@@ -139,17 +139,17 @@
 					    </thead>
 					    <tbody>
 					      <tr>
-					        <td><img src="fightclub.jpg"></td>
+					        <td><img src="Imgs/fightclub.jpg"></td>
 					        <td>Fight Club</td>
 					        <td>96%</td>
 					      </tr>
 					      <tr>
-					        <td><img src="shawshank.jpg"></td>
+					        <td><img src="Imgs/shawshank.jpg"></td>
 					        <td>The Shawshank Redemption</td>
 					        <td>87%</td>
 					      </tr>
 					      <tr>
-					        <td><img src="pulpfiction.jpg"></td>
+					        <td><img src="Imgs/pulpfiction.jpg"></td>
 					        <td>Pulp Fiction</td>
 					        <td>81%</td>
 					      </tr>
