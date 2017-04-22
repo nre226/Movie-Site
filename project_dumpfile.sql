@@ -4,13 +4,13 @@ CREATE TABLE user (user_id INT(8) NOT NULL AUTO_INCREMENT, email VARCHAR(40) NOT
 
 CREATE TABLE crew (crew_id INT(8) NOT NULL, first_name VARCHAR(40), middle_name VARCHAR(40), last_name VARCHAR(40), PRIMARY KEY (crew_id));
 
-CREATE TABLE genre (genre VARCHAR(40), movie_id INT(8) NOT NULL, PRIMARY KEY (movie_id));
+CREATE TABLE genre (genre VARCHAR(40), movie_id INT(8) NOT NULL, PRIMARY KEY (movie_id, genre));
 
-CREATE TABLE roles (role VARCHAR(40), movie_id INT(8) NOT NULL, crew_id INT(8) NOT NULL, PRIMARY KEY (movie_id));
+CREATE TABLE roles (role VARCHAR(40), movie_id INT(8) NOT NULL, crew_id INT(8) NOT NULL, PRIMARY KEY (movie_id, crew_id));
 
-CREATE TABLE tag (tag VARCHAR(40), movie_id INT(8) NOT NULL, PRIMARY KEY (movie_id));
+CREATE TABLE tag (tag VARCHAR(40), movie_id INT(8) NOT NULL, PRIMARY KEY (movie_id, tag));
 
 CREATE TABLE rating (user_id INT(8) NOT NULL, movie_id INT(8) NOT NULL, rating INT(2), review VARCHAR(64000), PRIMARY KEY (user_id, movie_id) );
 
-CREATE TABLE watchlist (user_id INT(8) NOT NULL, movie_id INT(8) NOT NULL, PRIMARY KEY (user_id));
+CREATE TABLE watchlist (user_id INT(8) NOT NULL, movie_id INT(8) NOT NULL, PRIMARY KEY (user_id, movie_id));
 
